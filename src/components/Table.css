@@ -1,0 +1,4 @@
+.table-wrapper { overflow-x: auto; background: white; border: 1px solid #e1e6e1; border-radius: 14px; }
+.data-table { width: 100%; border-collapse: collapse; min-width: 750px; }
+.data-table th, .data-table td { text-align: left; padding: 15px; border-bottom: 1px solid #edf0ed; font-size: 11px; }
+.data-table th { background: #f5f7f4; color: #78827c; text-transform: uppercase; letter-spacing: .7px; font-size: 9px; }

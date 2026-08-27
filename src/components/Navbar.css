@@ -1,0 +1,9 @@
+.navbar { height: 70px; background: rgba(255,255,255,.96); border-bottom: 1px solid #e1e6e1; position: sticky; top: 0; z-index: 50; }
+.navbar-inner { width: min(1160px, calc(100% - 36px)); height: 100%; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.brand { font-weight: 850; font-size: 18px; letter-spacing: -.4px; }
+.brand > span:last-child { color: #27734c; }
+.brand-mark { display: inline-grid; place-items: center; width: 36px; height: 36px; background: #17231d; border-radius: 10px; margin-right: 9px; font-size: 17px; }
+.nav-links { display: flex; gap: 5px; }
+.nav-link { padding: 9px 13px; border-radius: 8px; color: #69736e; font-size: 12px; font-weight: 750; }
+.nav-link:hover, .nav-link.active { color: #17231d; background: #edf2ed; }
+.menu-toggle { display: none; background: none; border: 0; font-size: 22px; }
